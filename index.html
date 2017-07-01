@@ -31,12 +31,12 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#clients">Clients</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li id="goServices"><a href="#">Services</a></li>
+          <li id="goPricing"><a href="#">Pricing</a></li>
+          <li id="goTeam"><a href="#">Team</a></li>
+          <li id="goClients"><a href="#">Clients</a></li>
+          <li id="goContact"><a href="#">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -57,7 +57,14 @@
       <div class="col-lg-3 col-md-5">
         
       </div>
-
+    </div>
+  
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="scrolldown">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </div>
+      </div>
     </div>
   </div>
 </div>
@@ -171,7 +178,7 @@
     <div class="row">
    		<div class="col-md-10 col-md-offset-1">
    		<div class="row">
-      <div class="person-card col-lg-4 col-sm-6">
+      <div class="person-card">
         <img src="img/team/team-1.jpg" class="img-circle" alt="">
         <h4>John Doe</h4>
         <b>CEO and Founder</b>
@@ -179,9 +186,9 @@
         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </div>
+      </div>
 
-      <div class="person-card col-lg-4 col-sm-6">
+      <div class="person-card">
         <img src="img/team/team-1.jpg" class="img-circle" alt="">
         <h4>John Doe</h4>
         <b>CEO and Founder</b>
@@ -191,7 +198,7 @@
         <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
 
-      <div class="person-card col-lg-4 col-sm-6">
+      <div class="person-card">
         <img src="img/team/team-1.jpg" class="img-circle" alt="">
         <h4>John Doe</h4>
         <b>CEO and Founder</b>
@@ -218,13 +225,13 @@
         <li><img src="img/clients/client1.png" alt=""></li>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6">
-        <li><img src="img/clients/client2.png" alt=""></li>
+        <li><img src="img/clients/client1.png" alt=""></li>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6">
-        <li><img src="img/clients/client3.png" alt=""></li>
+        <li><img src="img/clients/client1.png" alt=""></li>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6">
-        <li><img src="img/clients/client4.png" alt=""></li>
+        <li><img src="img/clients/client1.png" alt=""></li>
       </div>
     </div>
   </div>
@@ -267,20 +274,13 @@
 <div id="footer" class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <h4>Contact Us</h4>
-        <p><i class="fa fa-home" aria-hidden="true"></i> 11 Main Street, City, Postcode</p>
-        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> info@domain.com</p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i>111 111 111</p>
-        <p><i class="fa fa-globe" aria-hidden="true"></i>www.domain.com</p>
-      </div>
-      <div class="col-lg-4 col-md-4 ">
+      <div class="col-lg-6 col-md-6 col-sm-3 col-xs-12">
         <h4>About</h4>
-        <p>About Us</p>
-        <p>Privacy</p>
-        <p>Terms & Conditions</p>
+        <a href="#">About Us</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms & Conditions</a>
       </div>
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
         <h4>Stay in touch</h4>
         <i class="social fa fa-facebook" aria-hidden="true"></i>
         <i class="social fa fa-twitter" aria-hidden="true"></i>
@@ -291,11 +291,17 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="goup"><i class="fa fa-angle-double-up uparrow" aria-hidden="true"></i></div>
+    </div>
+    </div>
 </div>
 <!-- end footer -->
 
 <!-- js -->
 	<script src="js/libs.min.js"></script>
 	<script src="js/common.js"></script>
+
 </body>
 </html>
