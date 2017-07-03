@@ -1,6 +1,12 @@
 $(document).ready(function() {
 
 
+
+$(".slider .slide").animated("fadeIn");
+
+
+
+
 	$("#goServices").click(function() {
     	$('html, body').animate({
         	scrollTop: $("#services").offset().top
@@ -44,8 +50,20 @@ $(document).ready(function() {
 	});
 
 
-//navbar menu icon animation
 
+
+$(".services h2, .services .title p").animated("fadeIn");
+$(".pricing h2, .pricing .title p").animated("fadeIn");
+$(".team h2, .team .title p").animated("fadeIn");
+$(".clients h2, .clients .title p").animated("fadeIn");
+$(".contact h2, .contact .title p").animated("fadeIn");
+
+$(".services .service-card").animated("bounceInLeft");
+$(".pricing .packages").animated("bounceInLeft");
+$(".team .person-card").animated("bounceInLeft");
+$(".contact .contact-form-1, .contact .contact-form-2").animated("bounceInLeft");
+
+//navbar menu icon animation
 $('.navbar-toggle').click(function(){
 	$(this).toggleClass('open');
 });
