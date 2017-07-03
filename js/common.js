@@ -44,8 +44,11 @@ $(document).ready(function() {
 	});
 
 
+//navbar menu icon animation
 
-
+$('.navbar-toggle').click(function(){
+	$(this).toggleClass('open');
+});
 
 	//Chrome Smooth Scroll
 	try {
