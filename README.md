@@ -7,3 +7,5 @@ SASS compiled with gulp (you can find the files in gulpsass folder).
 
 Github Pages link:
 https://anastassiasegeda.github.io/landingpage-example/
+
+Need to fix paddings for small devices.
